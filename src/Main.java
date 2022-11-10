@@ -23,12 +23,12 @@ public class Main {
         //
         //***** Segunda parte, bucle while ******
         //
-        int contadorWhile = -1;
+        int numeroWhile = -1;
 
-        while (contadorWhile <3){
-            System.out.println(contadorWhile);
-            contadorWhile = contadorWhile + 1;
-        }
+        while (numeroWhile <3){
+            numeroWhile = numeroWhile + 1;
+            System.out.println(numeroWhile);         
+       }
 
 
 
@@ -38,14 +38,14 @@ public class Main {
         //******** Tercera parte, bucle do while *******
         //
 
-    int contadorDO = 2;
+    int numeroDoWhile = 2;
 
         do{
 
-            contadorDO = contadorDO +1;
-            System.out.println(contadorDO);
+            numeroDoWhile = numeroDoWhile +1;
+            System.out.println(numeroDoWhile);
 
-        } while (contadorDO < 3);
+        } while (numeroDoWhile < 3);
 
 
 
